@@ -12,5 +12,6 @@ jobs:
         run: |
           node -v
           npm -v
-          pip -v
+          pip -V
+          
 

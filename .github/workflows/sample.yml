@@ -42,6 +42,8 @@ jobs:
         run: |
           pwd
           ls -a
+          echo "One new line"
+          echo "Two new lines"
           cd .github/workflows
           pwd
           ls -a

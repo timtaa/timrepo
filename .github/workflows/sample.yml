@@ -42,7 +42,7 @@ jobs:
         run: |
           pwd
           ls -a
-          cd .github
+          cd .github/workflows
           ls -a
       - name: Simple JS Action
         id: greet

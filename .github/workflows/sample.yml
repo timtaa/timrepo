@@ -1,4 +1,4 @@
-name: Actions Workflow
+name: Shell Commands
 
 on: [push]
 

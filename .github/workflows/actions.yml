@@ -1,6 +1,7 @@
 name: Actions Workflow
 
-on: #push:
+on: # push:
+    issues:
     pull_request:
       types: [closed, assigned, opened, reopened]
 
@@ -10,6 +11,8 @@ jobs:
     steps:
       - name: List Files
         run: |
+          date
+          echo
           pwd
           ls -a
           echo $GITHUB_SHA

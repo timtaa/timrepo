@@ -5,7 +5,7 @@ on: # push:
     pull_request:
       types: [closed, assigned, opened, reopened]
     schedule:
-      - cron:  '35/5 * * * *'
+      - cron: '20/5 * * * *'
 
 jobs:
   run-github-actions:

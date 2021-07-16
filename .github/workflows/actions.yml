@@ -4,6 +4,8 @@ on: # push:
     issues:
     pull_request:
       types: [closed, assigned, opened, reopened]
+    schedule:
+      - cron:  '21 * * * *'
 
 jobs:
   run-github-actions:
